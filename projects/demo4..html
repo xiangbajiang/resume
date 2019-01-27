@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css基础样式题8</title>
+        <style>
+            .layout{
+                width: 600px;
+                margin: 0 auto;
+            }
+            .btn{
+                text-decoration: none;
+                border-radius: 3px;
+                display: inline-block;
+                padding: 8px 10px;
+                color: #000;
+                cursor: pointer;
+                transition: all .3s;
+            }
+            .btn:hover{
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .steal{
+                background-color: #009688;
+                color: #fff;
+            }
+            .orange{
+                background-color: #ffeb3b;
+            }
+            .yellow{
+                background-color:#ff9800;
+            }
+            .red{
+                background-color: #f44336;
+                color: #fff;
+            }
+            .green{
+                background-color: #4caf50;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="layout"> 
+            <a class="btn steal" href="#">steal</a>
+            <a class="btn orange" href="#">yellow</a>
+            <a class="btn yellow" href="#">orange</a>
+            <a class="btn red" href="#">red</a>
+            <a class="btn green" href="#">green</a>
+        </div>
+    </body>
+</html>
