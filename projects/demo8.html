@@ -12,12 +12,27 @@
             url('//at.alicdn.com/t/font_1105522_nau402u1ske.ttf') format('truetype'),
             url('//at.alicdn.com/t/font_1105522_nau402u1ske.svg#iconfont') format('svg');
         }
+        .icon {
+            font-family: "inconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .icon-elepant::before{
+            content: '\e6a9';
+        }
+        .icon-fish::before{
+            content: '\e6a7';
+        }
+        .icon-tight::before{
+            content: '\e6a6';
+        }
     </style>
     <body>
-        <div>
-            <p>我是&#xe6a9;</p>
-            <p>我是&#xe6a7;</p>
-            <p>我是&#xe6a6;</p>
+        <div class="font-face">
+            <p>我是<span class="icon icon-elepant"></span></p>
+            <p>我是<span class="icon icon-fish"></span></p>
+            <p>我是<span class="icon icon-tight"></span></p>
         </div>
     </body>
 </html>
